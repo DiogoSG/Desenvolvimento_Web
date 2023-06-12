@@ -1,0 +1,75 @@
+ /* FUNDO DA COR PAGINA*/
+ body {
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg ,rgb(0, 0, 0) 0%, rgb(146, 14, 14) 35%, rgb(211, 19, 19) 100%);
+ }
+/*FORMATAÇÃO DO CABEÇALHO COM IMAGEM*/
+header#cabecalho {
+	border-bottom: 2px #606060 solid;
+	height: 200px;
+	background: url("../imagem/Logopequeno.png") no-repeat 1px 70px
+}
+header#cabecalho h1 {
+	font-family: arial, sans-serif;
+	font-size: 25px;
+	color: #303030;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+	padding: 10px;
+	margin-bottom: 5px;
+	}
+header#cabecalho h2 {
+	font-family: arial, sans-serif;
+	color: #603050;
+	font-size: 15px;
+  padding: 5px;
+  margin-top: 5px;
+}
+/*INTERFACE DA PAGINA*/
+div#interface{
+	width: 900px;
+	background-color: #ffffff;
+	margin: -50px auto 10px auto;
+	box-shadow: 0px 0px 50px rgba(0, 0, 0, .5);
+	padding: 10px;
+}
+/*AJUSTANDO IMAGEM ICONE*/
+header#cabecalho img#icone {	
+	position: absolute;
+	left: 720px;
+	top: 65px;
+}
+/* FORMATAÇÃO DO MENU*/
+nav#menu {
+	display: block;
+}
+nav#menu ul {
+list-style: none;
+text-transform: uppercase;
+position: absolute;
+top: -10px;
+left: 630px;
+}
+
+nav#menu li {
+  display: inline-block;
+  background-color: #F5F5DC;
+  padding: 10px;
+  margin: 2px;
+}
+nav#menu h1 {
+	display: none;
+}
+
+/*FORMATAÇÃO DO PARAGRAFRO*/
+p{
+	text-align: justify;
+	text-indent: 50px;
+}
+
+figure.foto-legenda {
+	border: 3px solid blue;
+}
+figure.foto-legenda img {
+	width: 814px;
+	height: 600px;
+}
